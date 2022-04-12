@@ -1,0 +1,16 @@
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\bin\Release\net5.0\HashFunctionNIST.exe
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\bin\Release\net5.0\HashFunctionNIST.deps.json
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\bin\Release\net5.0\HashFunctionNIST.runtimeconfig.json
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\bin\Release\net5.0\HashFunctionNIST.runtimeconfig.dev.json
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\bin\Release\net5.0\HashFunctionNIST.dll
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\bin\Release\net5.0\ref\HashFunctionNIST.dll
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\bin\Release\net5.0\HashFunctionNIST.pdb
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\obj\Release\net5.0\HashFunctionNIST.csproj.AssemblyReference.cache
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\obj\Release\net5.0\HashFunctionNIST.GeneratedMSBuildEditorConfig.editorconfig
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\obj\Release\net5.0\HashFunctionNIST.AssemblyInfoInputs.cache
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\obj\Release\net5.0\HashFunctionNIST.AssemblyInfo.cs
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\obj\Release\net5.0\HashFunctionNIST.csproj.CoreCompileInputs.cache
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\obj\Release\net5.0\HashFunctionNIST.dll
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\obj\Release\net5.0\ref\HashFunctionNIST.dll
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\obj\Release\net5.0\HashFunctionNIST.pdb
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\obj\Release\net5.0\HashFunctionNIST.genruntimeconfig.cache
