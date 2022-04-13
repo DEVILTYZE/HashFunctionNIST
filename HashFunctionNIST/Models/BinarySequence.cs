@@ -45,6 +45,8 @@ namespace HashFunctionNIST.Models
             }
         }
 
-        public override string ToString() => this[..];
+        public int this[int index] => _sequence[index] ? 1 : 0;
+
+        public override string ToString() => this[.._sequence.Length];
     }
 }

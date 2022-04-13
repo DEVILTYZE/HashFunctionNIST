@@ -1,5 +1,6 @@
 ﻿using System;
 using HashFunctionNIST.Models;
+using MathNet.Numerics;
 
 namespace HashFunctionNIST.Tests
 {
@@ -7,25 +8,13 @@ namespace HashFunctionNIST.Tests
     {
         public FrequencyTest() : base("Частотный тест", 0.01) { }
 
-        protected override void RunThread(object data)
+        protected override double GetPValue(string data)
         {
-            var inputData = (string[])data;
+            var sequence = new BinarySequence(Hasher.Hash(data));
+            var (zeros, ones) = sequence.GetCountOfZerosAndOnes();
+            var statistic = Math.Abs(ones - zeros) / Math.Sqrt(zeros + ones);
             
-            foreach (var word in inputData)
-            {
-                var sequence = new BinarySequence(Hasher.Hash(word));
-                var (zeros, ones) = sequence.GetCountOfZerosAndOnes();
-                var statistic = Math.Abs(ones - zeros);
-                var pValue = MathHelper.Efrc(statistic / Math.Sqrt(2));
-
-                if (IsSuccessed(pValue)) 
-                    continue;
-                
-                lock (Locker)
-                {
-                    ++FailedCount;
-                }
-            }
+            return SpecialFunctions.Erfc(statistic / Math.Sqrt(2));
         }
     }
 }

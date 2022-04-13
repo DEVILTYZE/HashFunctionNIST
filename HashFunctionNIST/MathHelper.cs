@@ -1,4 +1,5 @@
 ﻿using System;
+using MathNet.Numerics;
 
 namespace HashFunctionNIST
 {
@@ -8,10 +9,11 @@ namespace HashFunctionNIST
         {
             const int maxCount = 10;
             var result = 0.0;
-
+        
             for (int factorial = 0, evenNumber = 1; factorial < maxCount; ++factorial, evenNumber += 2)
-                result += (-1 ^ factorial) * (1 / Factorial(factorial)) * Math.Pow(value, evenNumber) / evenNumber;
-
+                result += (-1 ^ factorial) * (1 / SpecialFunctions.Factorial(factorial)) * 
+                    Math.Pow(value, evenNumber) / evenNumber;
+        
             return 1 - result * (2 / Math.Sqrt(Math.PI));
         }
 
@@ -19,7 +21,7 @@ namespace HashFunctionNIST
         {
             var gx = Integral(t => Math.Pow(t, a - 1) * Math.Pow(Math.E, -t), 0, x);
             var g = Math.Pow(2, a + 1) / a * Integral(t => t * Math.Pow(-Math.Log(t, Math.E), a), 0, 1);
-
+        
             return 1 - gx / g;
         }
 
@@ -29,13 +31,11 @@ namespace HashFunctionNIST
             
             var sum = 0.0;
             var h = (b - a) / n;
-
+        
             for (var i = 0; i < n; ++i)
                 sum += 0.5 * h * (function.Invoke(a + i * h) + function.Invoke(a + (i + 1) * h));
-
+        
             return sum;
         }
-        
-        private static int Factorial(int number) => number is 0 ? 1 : number * Factorial(number - 1);
     }
 }

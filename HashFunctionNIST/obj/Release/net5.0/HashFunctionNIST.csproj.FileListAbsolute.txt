@@ -14,3 +14,5 @@ E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\obj\Release\
 E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\obj\Release\net5.0\ref\HashFunctionNIST.dll
 E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\obj\Release\net5.0\HashFunctionNIST.pdb
 E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\obj\Release\net5.0\HashFunctionNIST.genruntimeconfig.cache
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\bin\Release\net5.0\MathNet.Numerics.dll
+E:\Disk D\ProjectsCode\C#\LAB8SEM\HashFunctionNIST\HashFunctionNIST\obj\Release\net5.0\HashFunctionNIST.csproj.CopyComplete

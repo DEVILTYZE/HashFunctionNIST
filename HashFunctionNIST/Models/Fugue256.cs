@@ -28,7 +28,7 @@ namespace HashFunctionNIST.Models
         // region Main ================================================================================================
         #region Main
 
-        public byte[] Hash(string inputData)
+        public IEnumerable<byte> Hash(string inputData)
         {
             SetStartStates();
             
@@ -120,7 +120,7 @@ namespace HashFunctionNIST.Models
 
         private void SetStartStates() => _matrix = new MatrixStates(Iv256);
 
-        private byte[] GetResult()
+        private IEnumerable<byte> GetResult()
         {
             var indexes = new[] { 1, 2, 3, 4, 15, 16, 17, 18 };
             var result = new List<byte>();

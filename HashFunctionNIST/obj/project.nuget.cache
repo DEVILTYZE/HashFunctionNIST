@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WBt568k68AjBNJCnGjH0kpuWEAfX3OAqk7uvSqMEbVVW4cHuR8CiAHSrUJpao6Ml1F76wHn8NHMukVquRd3RQw==",
+  "dgSpecHash": "PGjuHurmvWBeKOSCud3hGTM4R3Z+zkuZJ8q0CH8LdqNTkBnCPrBB/VVEL0xTts1u4EVrkhhic8vI8dsPretkMw==",
   "success": true,
   "projectFilePath": "E:\\Disk D\\ProjectsCode\\C#\\LAB8SEM\\HashFunctionNIST\\HashFunctionNIST\\HashFunctionNIST.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

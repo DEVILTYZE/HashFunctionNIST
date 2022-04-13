@@ -6,9 +6,9 @@ using MathNet.Numerics;
 
 namespace HashFunctionNIST.Tests
 {
-    public class DisjointPatternTest : Test
+    public class JointPatternTest : Test
     {
-        public DisjointPatternTest() : base("Тест непересекающихся шаблонов", 0.01) { }
+        public JointPatternTest() : base("Тест пересекающихся шаблонов", 0.01) { }
 
         protected override double GetPValue(string data)
         {
@@ -64,12 +64,13 @@ namespace HashFunctionNIST.Tests
                     var currentSequence = subsequence[start..end];
 
                     if (string.CompareOrdinal(pattern, currentSequence) == 0)
+                        ++coef2;
+                    else
                     {
                         coef2 = 0;
                         ++coef;
                         ++result;
                     }
-                    else ++coef2;
                 }
             }
         }
